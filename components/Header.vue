@@ -17,12 +17,14 @@
               <!-- NAV TOGGLES TO HAMBURGER MENU AT LG BREAKPOINT -->
               <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
               <b-collapse id="nav-collapse" is-nav>
+              <no-ssr>
                 <b-navbar-nav class="text-uppercase text-right">
                   <b-nav-item><NuxtLink class="text-white" to="/">Home</NuxtLink></b-nav-item> 
                   <b-nav-item><NuxtLink class="text-white" to="/about">About</NuxtLink></b-nav-item>
                   <b-nav-item><NuxtLink class="text-white" to="/menu">Menu</NuxtLink></b-nav-item>
                   <b-nav-item><NuxtLink class="text-white" to="/contact">Contact</NuxtLink></b-nav-item>
                 </b-navbar-nav>
+              </no-ssr>
               </b-collapse>
               </div>
             </b-navbar>
