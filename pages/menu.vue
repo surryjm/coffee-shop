@@ -4,7 +4,7 @@
     <body>
       <main id="main-content" class="row justify-content-center mb-5">
         <div class="accordion accordion-width" role="tablist">
-
+          <h2 class="text-uppercase text-center mb-5 mt-4">Menu</h2>
           <!-- REWROTE ACCORDION WITH BOOTSTRAP VUE -->
           <b-card no-body class="mb-1">
             <b-card-header header-tag="header" class="p-1" role="tab">
