@@ -5,7 +5,7 @@ SEO (search engine optimization) is how to increase search engine ranking, compa
 * Ensure heading tags are used appropriately with your content. Important information should be used with the H1 tag.
 * There should only be one H1 tag per page.
 * Quality backlinks (links to and out of your website) can help SEO results.
-* Keep up with the latest trends in SEO optimization and check best practices from sites like Moz annualy.
+* Keep up with the latest trends in SEO optimization and check best practices from sites like Moz annually.
 
 ## Tactics to avoid:
 * Do not use ghost pages or hidden text to improve SEO score.
@@ -14,7 +14,7 @@ SEO (search engine optimization) is how to increase search engine ranking, compa
 ## Ideal SEO implementation
 * SEO planning: What do we want to highlight? Who are our customers and what are their goals?
 * Use a keyword research tool. What search terms are used to find us?
-* Set up keywords in headers and optimze meta descriptions.
+* Set up keywords in headers and optimize meta descriptions.
 * Set up Google Analytics account for site and review on a regular basis. See what users are clicking on or avoiding.
 * Set up a heat map to trace where users move their mouse on the page.
 
