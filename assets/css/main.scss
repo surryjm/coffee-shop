@@ -130,6 +130,10 @@ ul {
     }
     & .nav-link {
       @include underline-transition;
+      color: rgba(255, 255, 255, 1);
+    } 
+    & .nav-link:hover, .nav-link:focus {
+      color: rgba(255, 255, 255, 1);
     }
     & h1:nth-of-type(1) {
       margin-top: 9rem;

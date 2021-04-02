@@ -1,7 +1,6 @@
 <template>
 
-  <div class="about">
-    <body>
+    <div class="about">
       <main id="main-content" class="row justify-content-center mb-5">
         <section class="about-text">
           <h2 class="text-uppercase text-center">About Us</h2>
@@ -26,8 +25,7 @@
         </section>
 
       </main>
-    </body>
-  </div>
+    </div>
   
 </template>
 

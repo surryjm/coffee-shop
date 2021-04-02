@@ -1,6 +1,6 @@
 <template>
-   <div class="home">
-     <body>
+   
+     <div class="home">
       <main id="main-content">
         <p class="text-center intro">Ten Ton Coffee offers locally roasted coffee and house-made baked goods, located on Main Street in the historic city of Waitsburg, Washington.</p>
           <div class="row">
@@ -25,10 +25,10 @@
             </article>
           </div>
       </main>
-    </body>
+    </div>
 
     <!--<HomePage />-->
-  </div>
+ 
 </template>
 
 <script>

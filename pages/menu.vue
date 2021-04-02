@@ -1,7 +1,6 @@
 <template>
 
-  <div class="menu">
-    <body>
+    <div class="menu">
       <main id="main-content" class="row justify-content-center mb-5">
         <div class="accordion accordion-width" role="tablist">
           <h2 class="text-uppercase text-center mb-5 mt-4">Menu</h2>
@@ -60,8 +59,7 @@
           </b-card>
         </div>
       </main>
-    </body>
-  </div>
+    </div>
   
 </template>
 

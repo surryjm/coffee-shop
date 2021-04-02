@@ -1,7 +1,6 @@
 <template>
-
-  <div class="contact">
-    <body>
+  
+    <div class="contact">
       <main id="main-content" class="mb-5">
         <h2 class="text-uppercase text-center mb-5 mt-4">Contact Us</h2>
         <div class="mb-5 row justify-content-center">
@@ -18,8 +17,7 @@
           </section>
         </div>
       </main>
-    </body>
-  </div>
+    </div>
 
 </template>
 
