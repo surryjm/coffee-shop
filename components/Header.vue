@@ -18,10 +18,10 @@
               <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
               <b-collapse id="nav-collapse" is-nav>
                 <b-navbar-nav class="text-uppercase text-right">
-                  <b-nav-item><NuxtLink class="text-white" to="/">Home</NuxtLink></b-nav-item> 
-                  <b-nav-item><NuxtLink class="text-white" to="/about">About</NuxtLink></b-nav-item>
-                  <b-nav-item><NuxtLink class="text-white" to="/menu">Menu</NuxtLink></b-nav-item>
-                  <b-nav-item><NuxtLink class="text-white" to="/contact">Contact</NuxtLink></b-nav-item>
+                  <b-nav-item to="/">Home</b-nav-item>
+                  <b-nav-item to="/about">About</b-nav-item>
+                  <b-nav-item to="/menu">Menu</b-nav-item>
+                  <b-nav-item to="/contact">Contact</b-nav-item>
                 </b-navbar-nav>
               </b-collapse>
               </div>
