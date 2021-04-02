@@ -37,15 +37,30 @@ import {toggle} from '../mixins/toggle.js'
 
 export default {
 name: 'About',
+title: 'Ten Ton Coffee - About',
 components: {
     InstagramFeed, // INSTAGRAM COMPONENT
   },
 mixins: [toggle],
   data () {
+      return {
+        loading: true,
+        photos: null,
+        errored: false,
+        title: 'Ten Ton Coffee - About',
+      }
+    },
+  head () {
     return {
-      loading: true,
-      photos: null,
-      errored: false,
+      title: this.title,
+      meta: [
+        // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Ten Ton Coffee - About'
+        }
+      ]
     }
   },
   mounted () {

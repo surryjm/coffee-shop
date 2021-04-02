@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'coffee-shop-site',
+    title: 'Ten Ton Coffee',
     htmlAttrs: {
       lang: 'en'
     },
@@ -14,7 +14,8 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Welcome to Ten Ton Coffee!' }
+      { hid: 'description', name: 'description', content: 'Welcome to Ten Ton Coffee!' },
+      { hid: 'keywords', name: 'keywords', content: 'Ten Ton Coffee, Ten Ton, coffee, coffee shop, Waitsburg coffee, Waitsburg' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },

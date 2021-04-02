@@ -69,6 +69,7 @@ export default {
   name: 'Menu',
   data () {
     return {
+      title: 'Ten Ton Coffee - Menu',
       coffeeDrinks: [
         {id: 0, item: 'Drip Coffee', priceSmall: '2.50', priceLarge: '2.90'},
         {id: 1, item: 'Americano', priceSmall: '2.50', priceLarge: '2.90'},
@@ -94,7 +95,20 @@ export default {
         {id: 5, item: 'Orangina', priceSmall: '3.50', priceLarge: '4.00'}
       ]
     }
-  }
+  },
+  head () {
+      return {
+        title: this.title,
+        meta: [
+          // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+          {
+            hid: 'description',
+            name: 'description',
+            content: 'Ten Ton Coffee - Menu'
+          }
+        ]
+      }
+    }
 }
 </script>
 
