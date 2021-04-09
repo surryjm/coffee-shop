@@ -4,14 +4,14 @@
       <main id="main-content" class="row justify-content-center mb-5">
         <div class="accordion accordion-width" role="tablist">
           <h2 class="text-uppercase text-center mb-5 mt-4">Menu</h2>
-          <!-- REWROTE ACCORDION WITH BOOTSTRAP VUE -->
+          
           <b-card no-body class="mb-1">
             <b-card-header header-tag="header" class="p-1" role="tab">
               <b-button class="btn btn-link" block v-b-toggle.accordion-1 variant="link"><h3 class="my-3">Coffee</h3></b-button>
             </b-card-header>
             <b-collapse id="accordion-1" visible accordion="my-accordion" role="tabpanel">
               <b-card-body class="card-body row">
-                <!----V-FOR---->
+                
                 <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-4" v-for="drink in coffeeDrinks" v-bind:key="drink.id" :item="drink.item" :priceSmall="drink.priceSmall" :priceLarge="drink.priceLarge">
                   <h5>{{drink.item}}</h5>
                   <ul class="list-inline d-flex flex-column">
@@ -29,7 +29,7 @@
             </b-card-header>
             <b-collapse id="accordion-2" accordion="my-accordion" role="tabpanel">
               <b-card-body class="card-body row">
-                 <!----V-FOR---->
+                 
                 <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-4" v-for="food in foodItems" v-bind:key="food.id" :item="food.item" :price="food.price">
                   <h5>{{food.item}}</h5>
                   <ul class="list-inline d-flex flex-column">
@@ -46,7 +46,7 @@
             </b-card-header>
             <b-collapse id="accordion-3" accordion="my-accordion" role="tabpanel">
               <b-card-body class="card-body row">
-                <!----V-FOR---->
+                
                 <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-4" v-for="drink in otherDrinks" v-bind:key="drink.id" :item="drink.item" :priceSmall="drink.priceSmall" :priceLarge="drink.priceLarge">
                   <h5>{{drink.item}}</h5>
                   <ul class="list-inline d-flex flex-column">

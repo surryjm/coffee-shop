@@ -11,7 +11,6 @@
         <section class="col-xl-12 col-lg-8 col-md-10 col-sm-12 text-center mb-5">
           <h3 class="text-uppercase">Instagram</h3> 
 
-          <!-- INSTAGRAM COMPONENT -->
           <InstagramFeed
             v-for="(photo, i) in photos"
             v-on:click.native="toggleBorder(i)" 
@@ -31,7 +30,7 @@
 
 <script>
 
-import InstagramFeed from "../components/InstagramFeed.vue"; // INSTAGRAM COMPONENT
+import InstagramFeed from "../components/InstagramFeed.vue"; 
 import axios from 'axios';
 import {toggle} from '../mixins/toggle.js'
 
@@ -39,7 +38,7 @@ export default {
 name: 'About',
 title: 'Ten Ton Coffee - About',
 components: {
-    InstagramFeed, // INSTAGRAM COMPONENT
+    InstagramFeed, 
   },
 mixins: [toggle],
   data () {
@@ -54,7 +53,6 @@ mixins: [toggle],
     return {
       title: this.title,
       meta: [
-        // hid is used as unique identifier. Do not use `vmid` for it as it will not work
         {
           hid: 'description',
           name: 'description',
@@ -82,7 +80,6 @@ mixins: [toggle],
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
 
 .borderOn {
